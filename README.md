@@ -18,7 +18,10 @@ Llama-2-13b-chat-norwegian is a variant of [Meta](https://huggingface.co/meta-ll
 
 The model is tuned to understand and generate text in Norwegian. It's trained for one epoch on norwegian-alpaca + 15000 samples of machine-translated data from OpenOrca (the dataset to be released). A small subset of custom-made instructional data is also included.
 
-We are currently investigating the possibility of releasing a larger, more powerful model and making GGML and GPTQ versions available for this model.
+For other versions of this model see:
+* [Llama-2-13b-chat-norwegian](https://huggingface.co/RuterNorway/Llama-2-13b-chat-norwegian)
+* [Llama-2-13b-chat-norwegian-LoRa](https://huggingface.co/RuterNorway/Llama-2-13b-chat-norwegian-LoRa)
+* [Llama-2-13b-chat-norwegian-GPTQ](https://huggingface.co/RuterNorway/Llama-2-13b-chat-norwegian-GPTQ)
 
 
 ## Data
@@ -85,7 +88,11 @@ Llama-2-13b-chat-norwegian er en versjon av [Meta](https://huggingface.co/meta-l
 
 Modellen er finetuned til å forstå og generere tekst på Norsk. Den er trent i én epoch med norwegian-alpaca + et utvalg av 15000 maskinoversatt data fra OpenOrca (datasett venter på utgivelse). Det består og av et lite sett med selvlagde instruksjonsdata
 
-Vi undersøker for øyeblikekt muligheten for å gi ut en større og sterkere modell i framtiden, og å lage en GGML og GPTQ versjon tilgjengelig for denne modellen.
+Andre versjoner av modellen:
+
+* [Llama-2-13b-chat-norwegian](https://huggingface.co/RuterNorway/Llama-2-13b-chat-norwegian)
+* [Llama-2-13b-chat-norwegian-LoRa](https://huggingface.co/RuterNorway/Llama-2-13b-chat-norwegian-LoRa)
+* [Llama-2-13b-chat-norwegian-GPTQ](https://huggingface.co/RuterNorway/Llama-2-13b-chat-norwegian-GPTQ)
 
 
 ## Data

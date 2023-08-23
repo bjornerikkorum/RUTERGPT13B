@@ -8,6 +8,7 @@ tags:
 - norsk
 datasets:
 - NbAiLab/norwegian-alpaca
+- RuterNorway/OpenOrcaNo-15k
 language:
 - en
 - 'no'
@@ -16,7 +17,7 @@ pipeline_tag: text-generation
 # Llama 2 13b Chat Norwegian
 Llama-2-13b-chat-norwegian is a variant of [Meta](https://huggingface.co/meta-llama)´s [Llama 2 13b Chat](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf) model, finetuned on a mix of norwegian datasets created in [Ruter AI Lab](https://ruter.no) the summer of 2023.
 
-The model is tuned to understand and generate text in Norwegian. It's trained for one epoch on norwegian-alpaca + 15000 samples of machine-translated data from OpenOrca (the dataset to be released). A small subset of custom-made instructional data is also included.
+The model is tuned to understand and generate text in Norwegian. It's trained for one epoch on norwegian-alpaca + 15000 samples of machine-translated data from OpenOrca. A small subset of custom-made instructional data is also included.
 
 For other versions of this model see:
 * [Llama-2-13b-chat-norwegian](https://huggingface.co/RuterNorway/Llama-2-13b-chat-norwegian)
@@ -86,7 +87,7 @@ ___
 # Llama 2 13b Chat Norwegian (Norsk)
 Llama-2-13b-chat-norwegian er en versjon av [Meta](https://huggingface.co/meta-llama) sin [Llama 2 13b Chat](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf) model, finetuned på en kombinasjon av diverse norske datasett. Modellen ble laget i [Ruter AI Lab](https://ruter.no) 2023.
 
-Modellen er finetuned til å forstå og generere tekst på Norsk. Den er trent i én epoch med norwegian-alpaca + et utvalg av 15000 maskinoversatt data fra OpenOrca (datasett venter på utgivelse). Det består og av et lite sett med selvlagde instruksjonsdata
+Modellen er finetuned til å forstå og generere tekst på Norsk. Den er trent i én epoch med norwegian-alpaca + et utvalg av 15000 maskinoversatt data fra OpenOrca. Det består og av et lite sett med selvlagde instruksjonsdata
 
 Andre versjoner av modellen:
 
